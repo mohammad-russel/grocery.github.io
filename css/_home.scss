@@ -51,14 +51,16 @@
       }
     }
     .productbox {
-      display: flex;
-      flex-wrap: wrap;
+      margin: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 160px );
+      grid-column-gap: 20px;
+      justify-content: center;
+      transition: 1s;
       .card {
-        min-width: 200px;
-        width: 30%;
+        margin: 10px 0px;
         border: 1px solid rgb(208, 230, 245);
         border-radius: 5px;
-        margin: 20px;
         padding: 3px;
         box-shadow: 3px 3px 6px rgb(145, 145, 145),
           -4px -4px 8px rgb(255, 255, 255);
@@ -100,3 +102,4 @@
     }
   }
 }
+// ---------------------------------------------------
