@@ -16,6 +16,76 @@ body {
   max-width: 1200px;
 }
 
+.header {
+  border-bottom: 1px solid rgb(169, 169, 169);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.header .toggle {
+  display: none;
+}
+.header .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.header .logo img {
+  border: 1px solid rgb(212, 219, 236);
+  padding: 5px;
+  box-shadow: 2px 2px 6px rgb(85, 85, 85), -2px -2px 6px rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header nav ul a {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  margin: 0px 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.header .extralink {
+  color: black;
+  display: flex;
+}
+.header .extralink .user {
+  margin: 0px 10px;
+}
+.header .extralink .user a ion-icon {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+.header .extralink .addcart {
+  position: relative;
+}
+.header .extralink .addcart span {
+  position: absolute;
+  top: -5px;
+  left: -3px;
+  padding: 1px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(25, 25, 25);
+  color: rgb(235, 235, 235);
+  z-index: 1;
+  font-size: 13px;
+}
+.header .extralink .addcart ion-icon {
+  font-size: 25px;
+  color: black;
+}
+
 .loginbox,
 .registerbox {
   height: 100%;
@@ -95,4 +165,103 @@ body {
     border: none;
     height: 100%;
   }
+}
+.homepagebox .main {
+  padding-bottom: 20px;
+}
+.homepagebox .main .adsbox {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 20px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background-image: url("https://img.freepik.com/premium-photo/shopping-basket-full-food-groceries-table-supermarket_8087-1865.jpg?w=2000");
+  background-position: center;
+}
+.homepagebox .main .adsbox .ads {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.522);
+  width: 100%;
+  min-width: 250px;
+  color: rgb(219, 219, 219);
+  padding: 20px 0px;
+  text-align: center;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homepagebox .main .adsbox .ads h4 {
+  color: rgb(126, 223, 0);
+}
+.homepagebox .main .adsbox .ads h1 {
+  color: beige;
+}
+.homepagebox .main .adsbox .ads h2 {
+  color: rgb(255, 217, 0);
+}
+.homepagebox .main .adsbox .ads h3 {
+  color: rgb(251, 0, 29);
+  background: rgb(227, 227, 227);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 18px;
+}
+.homepagebox .main .adsbox .ads a {
+  background: rgb(255, 205, 68);
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  font-weight: 600;
+  font-size: 18px;
+}
+.homepagebox .main .productbox {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.homepagebox .main .productbox .card {
+  max-width: 39vmin;
+  width: 100%;
+  border: 1px solid rgb(208, 230, 245);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 12px;
+  box-shadow: 3px 3px 6px rgb(145, 145, 145), -4px -4px 8px rgb(255, 255, 255);
+}
+.homepagebox .main .productbox .card .card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: inset 2px 2px 6px rgb(112, 112, 112), inset -3px -3px 8px rgb(255, 255, 255);
+}
+.homepagebox .main .productbox .card .card1 .image {
+  background: #000;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.homepagebox .main .productbox .card .card1 .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.homepagebox .main .productbox .card .card1 .atc {
+  width: 100%;
+  height: 30px;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 2px 2px 4px rgb(174, 174, 174), -2px -2px 4px rgb(255, 255, 255);
+  margin: 3px 0px;
 }/*# sourceMappingURL=style.css.map */
