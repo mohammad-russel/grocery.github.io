@@ -26,6 +26,17 @@ body {
 .header .toggle {
   display: none;
 }
+.header .toggle .show,
+.header .toggle .hide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .toggle .show ion-icon,
+.header .toggle .hide ion-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
 .header .logo {
   width: 50px;
   height: 50px;
@@ -86,6 +97,17 @@ body {
   color: black;
 }
 
+@media only screen and (max-width: 500px) {
+  .header .toggle {
+    display: block;
+  }
+  .header .toggle .hide {
+    display: none;
+  }
+  .header nav {
+    display: none;
+  }
+}
 .loginbox,
 .registerbox {
   height: 100%;
@@ -173,7 +195,7 @@ body {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  margin: 20px;
+  margin: 5px;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -223,15 +245,17 @@ body {
   font-size: 18px;
 }
 .homepagebox .main .productbox {
-  display: flex;
-  flex-wrap: wrap;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 160px);
+  grid-column-gap: 20px;
+  justify-content: center;
+  transition: 1s;
 }
 .homepagebox .main .productbox .card {
-  min-width: 200px;
-  width: 30%;
+  margin: 10px 0px;
   border: 1px solid rgb(208, 230, 245);
   border-radius: 5px;
-  margin: 20px;
   padding: 3px;
   box-shadow: 3px 3px 6px rgb(145, 145, 145), -4px -4px 8px rgb(255, 255, 255);
 }

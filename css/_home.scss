@@ -3,7 +3,7 @@
     padding-bottom: 20px;
     .adsbox {
       height: max-content;
-      margin: 20px;
+      margin: 5px;
       padding: 0px;
       display: flex;
       justify-content: center;
@@ -51,7 +51,7 @@
       }
     }
     .productbox {
-      margin: 20px;
+      margin: 5px;
       display: grid;
       grid-template-columns: repeat(auto-fill, 160px );
       grid-column-gap: 20px;
