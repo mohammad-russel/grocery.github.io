@@ -224,16 +224,15 @@ body {
 }
 .homepagebox .main .productbox {
   display: flex;
-  justify-content: start;
   flex-wrap: wrap;
 }
 .homepagebox .main .productbox .card {
-  max-width: 39vmin;
-  width: 100%;
+  min-width: 200px;
+  width: 30%;
   border: 1px solid rgb(208, 230, 245);
   border-radius: 5px;
   margin: 20px;
-  padding: 12px;
+  padding: 3px;
   box-shadow: 3px 3px 6px rgb(145, 145, 145), -4px -4px 8px rgb(255, 255, 255);
 }
 .homepagebox .main .productbox .card .card1 {
@@ -241,7 +240,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
   border-radius: 5px;
   padding: 10px;
   box-shadow: inset 2px 2px 6px rgb(112, 112, 112), inset -3px -3px 8px rgb(255, 255, 255);
