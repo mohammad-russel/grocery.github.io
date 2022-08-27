@@ -17,6 +17,7 @@ body {
 }
 
 .header {
+  position: relative;
   border-bottom: 1px solid rgb(169, 169, 169);
   display: flex;
   justify-content: space-between;
@@ -95,6 +96,10 @@ body {
 .header .extralink .addcart ion-icon {
   font-size: 25px;
   color: black;
+}
+
+.cartbox {
+  position: absolute;
 }
 
 @media only screen and (max-width: 500px) {
@@ -279,11 +284,47 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.homepagebox .main .productbox .card .card1 .price {
+  color: rgb(0, 122, 10);
+  font-weight: 600;
+}
+.homepagebox .main .productbox .card .card1 .name {
+  font-size: 14px;
+  color: rgb(58, 58, 58);
+}
 .homepagebox .main .productbox .card .card1 .atc {
   width: 100%;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
   height: 30px;
+  color: rgb(59, 59, 59);
   border: none;
   background: rgba(0, 0, 0, 0);
   box-shadow: 2px 2px 4px rgb(174, 174, 174), -2px -2px 4px rgb(255, 255, 255);
   margin: 3px 0px;
+}
+.homepagebox .main .productbox .card .card1 .atc:active {
+  box-shadow: inset 2px 2px 6px rgb(112, 112, 112), inset -3px -3px 8px rgb(255, 255, 255);
+}
+
+.categorybox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.categorybox .pn {
+  color: rgb(125, 125, 125);
+  border: 1px solid rgb(216, 220, 236);
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgb(151, 151, 151), -3px -3px 6px rgb(255, 255, 255);
+}
+.categorybox .pn:hover {
+  box-shadow: inset 2px 2px 6px rgb(151, 151, 151), inset -3px -3px 6px rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */

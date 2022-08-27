@@ -85,17 +85,29 @@
             }
           }
           .price {
+            color: rgb(0, 122, 10);
+            font-weight: 600;
           }
           .name {
+            font-size: 14px;
+            color: rgb(58, 58, 58);
           }
           .atc {
             width: 100%;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
             height: 30px;
+            color: rgb(59, 59, 59);
             border: none;
             background: rgba(0, 0, 0, 0);
             box-shadow: 2px 2px 4px rgb(174, 174, 174),
               -2px -2px 4px rgb(255, 255, 255);
             margin: 3px 0px;
+            &:active{
+              box-shadow: inset 2px 2px 6px rgb(112, 112, 112),
+              inset -3px -3px 8px rgb(255, 255, 255);
+            }
           }
         }
       }
