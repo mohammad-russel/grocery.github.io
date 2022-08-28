@@ -20,6 +20,7 @@ body {
 .header {
   background: rgb(226, 232, 243);
   width: 100%;
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -445,4 +446,8 @@ body {
 }
 .categorybox .pn:hover {
   box-shadow: inset 2px 2px 6px rgb(151, 151, 151), inset -3px -3px 6px rgb(255, 255, 255);
+}
+
+.userbox {
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
