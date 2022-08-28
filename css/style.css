@@ -18,8 +18,8 @@ body {
 }
 
 .header {
-  position: relative;
-  border-bottom: 1px solid rgb(169, 169, 169);
+  background: rgb(226, 232, 243);
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -102,7 +102,7 @@ body {
   transition: 1s;
   position: absolute;
   top: 100%;
-  right: -50%;
+  right: -400%;
   background: rgb(224, 224, 224);
   color: aliceblue;
   padding: 10px;
@@ -390,7 +390,6 @@ body {
   flex-direction: column;
   border-radius: 5px;
   padding: 10px;
-  box-shadow: inset 2px 2px 6px rgb(112, 112, 112), inset -3px -3px 8px rgb(255, 255, 255);
 }
 .homepagebox .main .productbox .card .card1 .image {
   background: #000;

@@ -12,6 +12,7 @@
       background-image: url("https://img.freepik.com/premium-photo/shopping-basket-full-food-groceries-table-supermarket_8087-1865.jpg?w=2000");
       background-position: center;
       .ads {
+        
         height: 100%;
         background-color: rgba(0, 0, 0, 0.522);
         width: 100%;
@@ -58,6 +59,7 @@
       justify-content: center;
       transition: 1s;
       .card {
+        
         margin: 10px 0px;
         border: 1px solid rgb(208, 230, 245);
         border-radius: 5px;
@@ -71,8 +73,7 @@
           flex-direction: column;
           border-radius: 5px;
           padding: 10px;
-          box-shadow: inset 2px 2px 6px rgb(112, 112, 112),
-            inset -3px -3px 8px rgb(255, 255, 255);
+         
           .image {
             background: #000;
             width: 100%;
