@@ -448,6 +448,149 @@ body {
   box-shadow: inset 2px 2px 6px rgb(151, 151, 151), inset -3px -3px 6px rgb(255, 255, 255);
 }
 
-.userbox {
-  border: 1px solid black;
+.userbox .main .userhead {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.userbox .main .userhead .back ion-icon {
+  font-size: 30px;
+}
+.userbox .main .userhead .image img {
+  width: 100px;
+  border-radius: 50%;
+}
+.userbox .main .userhead .edit a {
+  background: rgb(39, 39, 39);
+  padding: 3px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: rgb(243, 243, 243);
+  font-size: 22px;
+}
+.userbox .main .usercontent .orders,
+.userbox .main .usercontent .userinfos {
+  margin: 10px;
+  text-align: center;
+}
+.userbox .main .usercontent .orders .title,
+.userbox .main .usercontent .userinfos .title {
+  border: 1px solid rgb(66, 66, 66);
+  color: aliceblue;
+  background: rgb(69, 69, 69);
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+}
+.userbox .main .usercontent .orders .orderbox .order,
+.userbox .main .usercontent .userinfos .orderbox .order {
+  display: flex;
+  box-shadow: 3px 3px 6px rgb(184, 184, 184), -3px -3px 6px white;
+  width: 95%;
+  margin: 20px auto;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+.userbox .main .usercontent .orders .orderbox .order .image,
+.userbox .main .usercontent .userinfos .orderbox .order .image {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userbox .main .usercontent .orders .orderbox .order .image img,
+.userbox .main .usercontent .userinfos .orderbox .order .image img {
+  width: 20vmin;
+}
+.userbox .main .usercontent .orders .orderbox .order .name,
+.userbox .main .usercontent .userinfos .orderbox .order .name {
+  margin: 5px;
+}
+.userbox .main .usercontent .orders .orderbox .order .price,
+.userbox .main .usercontent .userinfos .orderbox .order .price {
+  margin: 5px;
+}
+.userbox .main .usercontent .orders .orderbox .order .quantity,
+.userbox .main .usercontent .userinfos .orderbox .order .quantity {
+  margin: 5px;
+}
+.userbox .main .usercontent .orders .orderbox .order .totalprice,
+.userbox .main .usercontent .userinfos .orderbox .order .totalprice {
+  margin: 5px;
+}
+.userbox .main .usercontent .orders .orderbox .order .time,
+.userbox .main .usercontent .userinfos .orderbox .order .time {
+  margin: 5px;
+}
+.userbox .main .usercontent .orders .orderbox .order .status,
+.userbox .main .usercontent .userinfos .orderbox .order .status {
+  margin: 5px;
+  background: rgb(11, 109, 55);
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 4px;
+}
+.userbox .main .usercontent .orders .infobox,
+.userbox .main .usercontent .userinfos .infobox {
+  padding: 10px;
+  border-radius: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 20px auto;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  border: 1px solid rgb(141, 141, 141);
+}
+.userbox .main .usercontent .orders .infobox span,
+.userbox .main .usercontent .userinfos .infobox span {
+  margin: 10px 0px;
+  font-weight: 500;
+  color: rgb(60, 60, 60);
+}
+.userbox .main .usercontent .orders .infobox span .bold,
+.userbox .main .usercontent .userinfos .infobox span .bold {
+  background: rgb(255, 255, 255);
+  margin: 0px 10px;
+  padding: 5px 15px;
+  font-weight: 900;
+  color: rgb(28, 28, 28);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .userbox .main .userhead .back ion-icon {
+    font-size: 30px;
+  }
+  .userbox .main .usercontent .orders .orderbox .order,
+.userbox .main .usercontent .userinfos .orderbox .order {
+    flex-direction: column;
+  }
+  .userbox .main .usercontent .orders .orderbox .order .image img,
+.userbox .main .usercontent .userinfos .orderbox .order .image img {
+    width: 20vmin;
+  }
+  .userbox .main .usercontent .orders .orderbox .order .name,
+.userbox .main .usercontent .userinfos .orderbox .order .name {
+    margin: 5px;
+  }
+  .userbox .main .usercontent .orders .orderbox .order .price,
+.userbox .main .usercontent .userinfos .orderbox .order .price {
+    margin: 5px;
+  }
+  .userbox .main .usercontent .orders .orderbox .order .quantity,
+.userbox .main .usercontent .userinfos .orderbox .order .quantity {
+    margin: 5px;
+  }
+  .userbox .main .usercontent .orders .orderbox .order .totalprice,
+.userbox .main .usercontent .userinfos .orderbox .order .totalprice {
+    margin: 5px;
+  }
+  .userbox .main .usercontent .orders .orderbox .order .time,
+.userbox .main .usercontent .userinfos .orderbox .order .time {
+    margin: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
