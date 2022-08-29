@@ -1,0 +1,50 @@
+.contactbox{
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+    h2{
+    }
+    .sociallink{
+        margin: 10px 0px;
+        a{
+            margin: 10px 10px;
+            text-decoration: none;
+            color: rgb(75, 75, 75);
+            ion-icon{
+                font-size: 20px;
+            }
+        }
+    }
+    form{
+        textarea{
+            width: 100%;
+            max-width: 250px;
+            box-shadow:inset 2px 2px 4px rgb(154, 154, 154),inset -3px -3px 3px white ;
+background: rgba(0, 0, 0, 0);
+border: none;
+padding: 5px 10px;
+outline: none;
+color: rgb(93, 93, 93);
+border-radius: 5px;
+resize: none;
+        }
+        input{
+            margin-top: 10px;
+            padding: 3px 15px;
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: rgb(92, 92, 92);
+            border-radius: 5px;
+            border: none;
+            background: rgba(0, 0, 0, 0);
+            box-shadow:2px 2px 4px rgb(154, 154, 154), -3px -3px 3px white ;
+            &:hover{
+            box-shadow:inset 2px 2px 4px rgb(154, 154, 154),inset -3px -3px 3px white ;
+
+            }
+        }
+    }
+
+}
